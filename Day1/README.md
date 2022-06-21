@@ -19,7 +19,7 @@ var mark = 45
 let highestMark = 100
 ```
 
-We can chnage variable using..
+We can chnage variable using.
 
 ```
  mark = 45
