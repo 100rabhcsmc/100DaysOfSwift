@@ -1,4 +1,4 @@
-##Day 1
+# Day 1
 
 ## Variables,Data Type,String interpolation,Type annotations
 
