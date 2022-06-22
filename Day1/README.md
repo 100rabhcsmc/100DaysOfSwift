@@ -93,7 +93,7 @@ var name : String = “saurabh”
 ```
 
 <div align="right">
-    <a href="https://twitter.com/100rabhcsmc">
+    <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day2">
           Day 2 >>
     </a>
  </div>
