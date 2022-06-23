@@ -102,3 +102,9 @@ empty set
 var words = Set<String>()
 var numbers = Set<Int>()
 ```
+
+<div align="right">
+    <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day3">
+          Day 3 >>
+    </a>
+ </div>
