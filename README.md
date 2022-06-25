@@ -21,3 +21,4 @@ Here is the list of My Swift Journey 👇<br>
 1. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day1">Day 1</a>
 2. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day2">Day 2</a>
 3. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day3">Day 3</a>
+4. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day4">Day 4</a>
