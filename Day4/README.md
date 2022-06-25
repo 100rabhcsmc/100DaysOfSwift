@@ -80,3 +80,9 @@ Ans:
 **Summary**
 1.Loops let us repeat code until a condition is false.
 2.If you don’t need the temporary constant that for loops give you, use an underscore instead so Swift can skip that work.
+
+<div align="right">
+    <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day5">
+          Day 5 >>
+    </a>
+ </div>
