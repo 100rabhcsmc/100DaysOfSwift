@@ -17,6 +17,9 @@ This challenge taking from <a href="https://www.hackingwithswift.com/100">100Day
 You can also follow my blog <a href="https://dev.to/100rabhcsmc">Saurabh Blog</a>
 
 Here is the list of My Swift Journey 👇<br>
+<div align='center'>
+    <h1>Days 1-12: Introduction to Swift</h1> 
+ </div>
 
 1. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day1">Day 1</a>
 2. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day2">Day 2</a>
