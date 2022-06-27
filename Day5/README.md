@@ -93,6 +93,4 @@ Hello("Saurabh")
 
 ```
 
-```
-
-```
+You can refer here also best Way and easy <a  href="https://www.programiz.com/swift-programming/functions">Function </a>
