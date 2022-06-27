@@ -21,8 +21,6 @@ func printHelp() {
 
     print(message)
 }
-
-
 ```
 
 Run using
@@ -43,10 +41,9 @@ func sauChavan(Parameter: DataType){
 }
 
 sauChavan(Parameter: argument)
-
-
 ```
 
+```
 func sauChavan(Surname:String){
 let name="saurabh \(Surname)"
 print(name)
@@ -56,7 +53,6 @@ sauChavan(Surname:"Chavan")
 //Output: saurabh chavan
 
 ```
-
 
 ## 2.Returning values
 
@@ -87,12 +83,15 @@ sayHello(to: "Saurabh")
 ## 4.Omitting parameter labels
 
 ```
+//when we are not pass parameter
 
-func Hello(\_ person: String) {
+func Hello(_ person: String) {
 print("Hello, \(person)!")
 }
 Hello("Saurabh")
 //output: Hello Saurabh
+
+```
 
 ```
 
