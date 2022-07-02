@@ -94,3 +94,9 @@ Hello("Saurabh")
 ```
 
 You can refer here also best Way and easy <a  href="https://www.programiz.com/swift-programming/functions">Function </a>
+
+<div align="right">
+    <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day6">
+          Day 6 >>
+    </a>
+ </div>
