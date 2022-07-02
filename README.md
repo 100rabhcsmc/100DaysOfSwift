@@ -6,6 +6,9 @@
     <a class="header-badge" target="_blank" href="https://twitter.com/100rabhcsmc">
           <img src="https://img.shields.io/badge/style--5eba00.svg?label=twitter&logo=twitter&style=social">
     </a>
+     <a class="header-badge" target="_blank" href="https://instagram.com/100rabhch">
+          <img src="https://img.shields.io/badge/style--5eba00.svg?label=instagram&logo=instagram&style=social">
+    </a>
  </div>
 
 Hey friends 👋 <br>
