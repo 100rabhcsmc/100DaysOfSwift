@@ -92,7 +92,7 @@ let taylor = "swift"
 If you try to change that, Xcode will refuse to run your code
 
 10. Swift uses type interface to assign each variable or constant a type.
-    Type annotations begin with a colon(:) and end with a type.
+    Type annotations begin with a colon and end with a type.
 
 ```
 var name : String = “saurabh”
