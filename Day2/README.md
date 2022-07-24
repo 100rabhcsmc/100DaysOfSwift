@@ -80,7 +80,7 @@ var someDict:[Int:String] = [1:"One", 2:"Two", 3:"Three"]
 ```
 
 5.According to the Swift documentation enumeration is defined as “a common type for a group of related values and enables you to work with those values in a type-safe way within your code”.
-for more details about enum [Click Here..](https://codewithchris.com/swift-enum/)
+for more details about enum [Click Here ..](https://codewithchris.com/swift-enum/)
 
 6.Creating empty collections
 Arrays, sets, and dictionaries are called collections, because they collect values together in one place.
