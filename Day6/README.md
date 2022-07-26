@@ -97,3 +97,9 @@ travel(action: driving)
 ```
 
 If we wanted to pass that closure into a function so it can be run inside that function, we would specify the parameter type as () -> Void. That means “accepts no parameters, and returns Void” – Swift’s way of saying “nothing”.
+
+<div align="right">
+    <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day7">
+          Day 7 >>
+    </a>
+ </div>
