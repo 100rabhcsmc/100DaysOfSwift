@@ -86,3 +86,19 @@ I'm getting ready to go.
 I'm going to London at 60 miles per hour.
 I arrived!
 ```
+
+**Returning closures from functions**
+
+```
+func travel() -> (String) -> Void {
+    return {
+        print("I'm going to \($0)")
+    }
+}
+
+let result = travel()
+result("London")
+
+Output:
+I'm going to London
+```
