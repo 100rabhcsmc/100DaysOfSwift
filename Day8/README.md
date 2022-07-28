@@ -1,5 +1,5 @@
 <div align='center'>
-    <h1>Day 7</h1> 
+    <h1>Day 8</h1> 
     <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/saurabhmchavan/">
           <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
     </a>   
@@ -15,9 +15,9 @@
  </div>
 
 <div align='center'>
-    <h1> Closures Part 8</h1> 
+    <h1> Structs Part 8</h1> 
 </div>
 
 ## Day 8
 
-## Closures Part 2
+## Structs Part 1
