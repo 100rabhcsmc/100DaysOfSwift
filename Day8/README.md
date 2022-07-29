@@ -22,6 +22,8 @@
 
 ## Structs Part 1
 
+**Creating your own structs**
+
 In Swift, a struct is used to store variables of different data types.
 
 structures, which are a “named type”. Like a String, Int or Array, you can define your own structures to create named types to later use in your code
@@ -53,3 +55,79 @@ Lawn tennis
 ```
 
 Properties can have default values just like regular variables, and you can usually rely on Swift’s type inference.
+
+**Computed properties**
+
+```
+struct Sport {
+    var name: String
+}
+```
+
+That has a name property that stores a String. These are called stored properties, because Swift has a different kind of property called a computed property – a property that runs code to figure out its value.
+
+```
+struct Sport {
+    var name: String
+    var isOlympicSport: Bool
+
+    var olympicStatus: String {
+        if isOlympicSport {
+            return "\(name) is an Olympic sport"
+        } else {
+            return "\(name) is not an Olympic sport"
+        }
+    }
+}
+
+let chessBoxing = Sport(name: "Chessboxing", isOlympicSport: false)
+print(chessBoxing.olympicStatus)
+
+Output:
+Chessboxing is not an Olympic sport
+```
+
+**Property observers**
+
+```
+struct Progressa {
+    var task: String
+    var amount: Int {
+        didSet {
+            print("\(task) is now \(amount)% complete")
+        }
+    }
+}
+
+
+var progress = Progressa(task: "Loading data", amount: 0)
+progress.amount = 30
+progress.amount = 80
+progress.amount = 100
+
+Output:
+Loading data is now 30% complete
+Loading data is now 80% complete
+Loading data is now 100% complete
+```
+
+What we want to happen is for Swift to print a message every time amount changes, and we can use a **didSet** property observer for that. This will run some code every time amount changes:
+
+You can also use **willSet** to take action before a property changes, but that is rarely used.
+
+**Methods**
+
+Structs can have functions inside them, and those functions can use the properties of the struct as they need to. Functions inside structs are called methods.
+
+```
+struct City {
+    var population: Int
+
+    func collectTaxes() -> Int {
+        return population * 1000
+    }
+}
+
+let london = City(population: 9_000_000)
+london.collectTaxes()
+```
