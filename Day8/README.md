@@ -131,3 +131,27 @@ struct City {
 let london = City(population: 9_000_000)
 london.collectTaxes()
 ```
+
+**Mutating methods**
+
+If a struct has a variable property but the instance of the struct was created as a constant, that property can’t be changed.
+
+When you want to change a property inside a method, you need to mark it using the mutating keyword, like this:
+
+```
+struct Person {
+    var name: String
+
+    mutating func makeAnonymous() {
+        name = "Anonymous"
+    }
+}
+
+var person = Person(name: "Ed")
+person.makeAnonymous()
+
+print(person.name)
+
+Output:
+Anonymous
+```
