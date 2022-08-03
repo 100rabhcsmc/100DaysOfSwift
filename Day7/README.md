@@ -102,3 +102,9 @@ result("London")
 Output:
 I'm going to London
 ```
+
+<div align="right">
+    <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day8">
+          Day 8 >>
+    </a>
+ </div>
