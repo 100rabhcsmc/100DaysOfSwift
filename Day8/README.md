@@ -155,3 +155,22 @@ print(person.name)
 Output:
 Anonymous
 ```
+
+**Properties and methods of strings**
+
+```
+let string = "Welcome to 100Days Of Swift"
+
+print(string.count)  //27
+```
+
+They have a hasPrefix() method that returns true if the string starts with specific letters:
+
+```
+print(string.hasPrefix("Sau")) //false
+
+print(string.hasPrefix("Welcome")) //true
+
+print(string.uppercased()) //WELCOME TO 100DAYS OF SWIFT
+
+```
