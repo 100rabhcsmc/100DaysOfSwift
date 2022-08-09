@@ -15,7 +15,7 @@
  </div>
 
 <div align='center'>
-    <h1> Structs Part 8</h1> 
+    <h1> Structs Part 1</h1> 
 </div>
 
 ## Day 8
