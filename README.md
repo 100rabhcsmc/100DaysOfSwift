@@ -29,11 +29,11 @@ Here is the list of My Swift Journey 👇<br>
     <h1>Days 1-12: Introduction to Swift</h1> 
  </div>
 
-1. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day1">Day 1</a>
-2. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day2">Day 2</a>
-3. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day3">Day 3</a>
-4. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day4">Day 4</a>
-5. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day5">Day 5</a>
-6. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day6">Day 6</a>
-7. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day7">Day 7</a>
-8. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day8">Day 8</a>
+1. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day1">Day 1 Variables,Data Type,String interpolation,Type annotations</a>
+2. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day2">Day 2 Arrays, sets, Tuples, dictionaries and enums </a>
+3. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day3">Day 3 Operators and conditions</a>
+4. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day4">Day 4 Loops </a>
+5. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day5">Day 5 Functions </a>
+6. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day6">Day 6 Closures Part 1 </a>
+7. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day7">Day 7 Closures Part 2 </a>
+8. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day8">Day 8 Structs Part 1 </a>
