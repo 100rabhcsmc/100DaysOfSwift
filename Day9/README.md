@@ -57,5 +57,5 @@ var user = User()
 user.username = "Saurabh"
 
 print(user.username)
-//Saurab
+//Saurabh
 ```
