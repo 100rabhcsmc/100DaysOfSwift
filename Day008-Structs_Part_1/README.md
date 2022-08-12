@@ -174,3 +174,9 @@ print(string.hasPrefix("Welcome")) //true
 print(string.uppercased()) //WELCOME TO 100DAYS OF SWIFT
 
 ```
+
+<div align="right">
+    <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day9">
+          Day 9 >>
+    </a>
+ </div>
