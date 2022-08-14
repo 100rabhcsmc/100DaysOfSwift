@@ -19,7 +19,7 @@ Welcome to the 100 Days Of Swift challenge. the Main motive for the challenge is
 
 I’m super excited for the 100 Days Of Swift challenge.
 
-This challenge taking from <a href="https://www.hackingwithswift.com/100">100DaysOfSwift</a>. <br>
+This challenge taking from <a href="https://www.hackingwithswift.com/100">100DaysOfSwift</a><br>
 You can also follow my blog <a href="https://dev.to/100rabhcsmc">Saurabh Blog</a>
 
 Here is the list of My Swift Journey 👇<br>
