@@ -21,3 +21,33 @@
 ## Day 10
 
 ## Classes and inheritance
+
+Similar to constants, variables and functions the user can define class properties and methods
+
+Classes are similar to structs in that they allow you to create new types with properties and methods, but they have five important differences
+
+**Creating your own classes**
+
+The first difference between classes and structs is that classes never come with a memberwise initializer. This means if you have properties in your class, you must always create your own initializer.
+
+```
+class FullName {
+    var firstName: String
+    var lastName: String
+
+    init(firstName: String, lastName: String) {
+        self.firstName = firstName
+        self.lastName = lastName
+    }
+}
+
+let FName = FullName(firstName: "Saurabh", lastName: "Chavan")
+print(FName.firstName)
+//Saurabh
+```
+
+**Class inheritance**
+
+The second difference between classes and structs is that you can create a class based on an existing class – it inherits all the properties and methods of the original class, and can add its own on top.
+
+This is called class inheritance or subclassing, the class you inherit from is called the “parent” or “super” class, and the new class is called the “child” class.
