@@ -48,6 +48,111 @@ print(FName.firstName)
 
 **Class inheritance**
 
-The second difference between classes and structs is that you can create a class based on an existing class – it inherits all the properties and methods of the original class, and can add its own on top.
+Inheritance allows us to create a new class from an existing class.
 
-This is called class inheritance or subclassing, the class you inherit from is called the “parent” or “super” class, and the new class is called the “child” class.
+The new class that is created is known as subclass (child or derived class) and the existing class from which the child class is derived is known as superclass (parent or base class).
+
+we use the colon : to inherit a class from another class.
+
+**Syntax:**
+
+```
+// define a superclass
+class Animal {
+  // properties and methods definition
+}
+
+// inheritance
+class Dog: Animal {
+
+  // properties and methods of Animal
+  // properties and methods of Dog
+}
+```
+
+Here, we are inheriting the Dog subclass from the Animal superclass.
+
+**Example:**
+
+```
+class Animal {
+
+  // properties and method of the parent class
+  var name: String = ""
+
+  func eat() {
+    print("I can eat")
+  }
+}
+
+// inherit from Animal
+class Dog: Animal {
+
+  // new method in subclass
+  func display() {
+
+    // access name property of superclass
+    print("My name is ", name);
+  }
+}
+
+// create an object of the subclass
+var labrador = Dog()
+
+// access superclass property and method
+labrador.name = "Rohu"
+labrador.eat()
+
+// call subclass method
+labrador.display()
+
+**Output**
+
+I can eat
+My name is Rohu
+```
+
+**Example 2:**
+
+```
+class Sau {
+    var name:String = ""
+}
+
+class Saurabh:Sau {
+    func display(){
+        print("My name is",name)
+    }
+}
+
+let FName = Saurabh()
+FName.name = "Saurabh"
+FName.display()
+//output
+My name is Saurabh
+```
+
+**Overriding methods**
+
+Child classes can replace parent methods with their own implementations – a process known as overriding.
+
+if the same method is defined in both the superclass and the subclass, then the method of the subclass class overrides the method of the superclass. This is known as overriding.
+
+**Syntax:**
+
+```
+class Vehicle {
+
+  func displayInfo(){
+    ...
+  }
+}
+
+class Car: Vehicle {
+
+  // override method
+  override func displayInfo() {
+    ...
+  }
+}
+```
