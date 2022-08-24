@@ -21,3 +21,56 @@
 ## Day 11
 
 ## Protocols and extensions
+
+**Protocols**
+
+In Swift, a protocol defines a blueprint of methods or properties that can then be adopted by classes (or any other types).
+
+We use the protocol keyword to define a protocol.
+For example,
+
+```
+protocol Greet {
+
+  // blueprint of a property
+  var name: String { get }
+
+
+  // blueprint of a method
+  func message()
+}
+```
+
+The protocol just holds the method or properties definition, not their actual body.
+
+The protocol must specify whether the property will be gettable or gettable and settable.
+
+**Protocol inheritance**
+
+One protocol can inherit from another in a process known as protocol inheritance.
+
+Unlike with classes, you can inherit from multiple protocols at the same time before you add your own customizations on top.
+
+Example:
+
+```
+protocol Payable {
+    func calculateWages() -> Int
+}
+
+protocol NeedsTraining {
+    func study()
+}
+
+protocol HasVacation {
+    func takeVacation(days: Int)
+}
+```
+
+We can now create a single Employee protocol that brings them together in one protocol. We don’t need to add anything on top, so we’ll just write open and close braces:
+
+```
+protocol Employee: Payable, NeedsTraining, HasVacation { }
+```
+
+**Extensions**
