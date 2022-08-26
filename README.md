@@ -15,7 +15,7 @@
  </div>
 
 Hey friends 👋 <br>
-Welcome to the 100 Days Of Swift challenge. the Main motive for the challenge is, I want to make a change. I want to see myself as a better developer and learn something new in daily life.
+Welcome to the 100 Days Of Swift challenge.The Main motive for the challenge is, I want to make a change. I want to see myself as a better developer and learn something new in daily life.
 
 I’m super excited for the 100 Days Of Swift challenge.
 
