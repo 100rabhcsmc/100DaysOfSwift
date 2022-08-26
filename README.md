@@ -28,15 +28,13 @@ Here is the list of My Swift Journey 👇<br>
     <h1>Days 1-12: Introduction to Swift</h1> 
  </div>
 
-1. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day1">Day 1 Variables,Data Type,String interpolation,Type annotations</a>
-2. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day2">Day 2 Arrays, sets, Tuples, dictionaries and enums </a>
-3. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day3">Day 3 Operators and conditions</a>
-4. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day4">Day 4 Loops </a>
-5. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day5">Day 5 Functions </a>
-6. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day6">Day 6 Closures Part 1 </a>
-7. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day7">Day 7 Closures Part 2 </a>
-8. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day8">Day 8 Structs Part 1 </a>
-9. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day9">Day 9 Structs Part 2 </a>
-10.  <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day9">Day010 Classes_and_inheritance</a>
-
-
+1. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day001-Variables_DataType_Stringinterpolation_Type%20annotations">Day 1 Variables,Data Type,String interpolation,Type annotations</a>
+2. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day002-Arrays_sets_Tuples_dictionaries_and_enums">Day 2 Arrays, sets, Tuples, dictionaries and enums </a>
+3. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day003-Operators_and_conditions">Day 3 Operators and conditions</a>
+4. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day004_Loops">Day 4 Loops </a>
+5. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day005-Functions">Day 5 Functions </a>
+6. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day006-Closures_Part_1">Day 6 Closures Part 1 </a>
+7. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day007-Closures_Part_2">Day 7 Closures Part 2 </a>
+8. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day008-Structs_Part_1">Day 8 Structs Part 1 </a>
+9. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day009-Structs_Part_2">Day 9 Structs Part 2 </a>
+10. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day9">Day010 Classes_and_inheritance</a>
