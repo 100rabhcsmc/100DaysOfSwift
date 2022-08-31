@@ -44,8 +44,8 @@ We don't need var and let second time its already been created.
 
 ```
  var fullName = “““
-                   saurabh
-                   chavan
+                  saurabh
+                  chavan
                  ”””
 ```
 
