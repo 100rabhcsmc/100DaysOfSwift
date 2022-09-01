@@ -25,7 +25,7 @@ You can also follow my blog <a href="https://dev.to/100rabhcsmc">Saurabh Blog</a
 Here is the list of My Swift Journey 👇<br>
 
 <div align='center'>
-    <h1>Days 1-12: Introduction to Swift</h1> 
+    <h1>Days 1-12 : Introduction to Swift</h1> 
  </div>
 
 1. <a href="https://github.com/100rabhcsmc/100DaysOfSwift/tree/main/Day001-Variables_DataType_Stringinterpolation_Type%20annotations">Day 1 Variables,Data Type,String interpolation,Type annotations</a>
