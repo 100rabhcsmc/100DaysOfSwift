@@ -45,5 +45,5 @@ UIViewController is Apple’s default screen type, which is empty and white unti
 **3**.The line override func viewDidLoad() starts a method. As you know, the override keyword is needed because it means “we want to change Apple’s default behavior from UIViewController.”
 viewDidLoad() is called by UIKit when the screen has loaded, and is ready for you to customize.
 
-**4**.The viewDidLoad() method contains one line of code saying super.viewDidLoad() and one line of comment (that’s the line starting with //).
+**4**.The viewDidLoad() method contains one line of code saying super.viewDidLoad() and one line of comment (that’s the line starting with // ).
 This super call means “tell Apple’s UIViewController to run its own code before I run mine,” and you’ll see this used a lot.
