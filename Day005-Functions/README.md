@@ -37,7 +37,7 @@ printHelp()
 
 ```
 
-## 1. Accepting parameter
+## 1.  Accepting parameter
 
 Values sent into functions this way are called parameters.
 
