@@ -2,27 +2,28 @@
 //  ViewController.swift
 //  Project1
 //
-//  Created by Saurabh Chavan on 10/10/22.
+//  Created by Saurabh Chavan on 12/10/22.
 //
 
 import UIKit
 
 class ViewController: UITableViewController {
-    var pictures = [String]()
-
+     var pictures = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view.
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
         let items = try! fm.contentsOfDirectory(atPath: path)
-        
+
         for item in items {
-            if item.hasPrefix("nssl"){
+            if item.hasPrefix("nssl") {
+                // this is a picture to load!
+                print("hello")
                 pictures.append(item)
             }
         }
         print(pictures)
-        // Do any additional setup after loading the view.
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -34,6 +35,8 @@ class ViewController: UITableViewController {
         cell.textLabel?.text = pictures[indexPath.row]
         return cell
     }
+
+
 
 }
 
